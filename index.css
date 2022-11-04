@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+   background-image: url(images/6360e00a5143d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img{
+    width: 100px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+header{
+    display: flex;
+    background-color: darkgray;
+    top: 0px;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+}
+.menu{
+    position: relative;
+    margin-left:40px;
+    display: inline-flex;
+    margin-top: 26px;
+    list-style: none;
+}
+.menu li{
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    
+
+}
+.menu li a{
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
+.button{
+    margin-right: 20px;
+    border-radius: 200px;
+    background-color: darkcyan;
+    color: white;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    color: black;
+    background-color: darkgray;
+    text-align: center;
+    height: 90px;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+}
+h2,p{
+    position: relative;
+    padding: 4px;
+}
+
+.menu li:hover{
+    background-color: darkcyan;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+
+
+
+ 
+
+
+    
+
